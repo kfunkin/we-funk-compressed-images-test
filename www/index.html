@@ -1,0 +1,157 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible"content="ie=edge">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+
+  </head>
+  <body>
+
+<img src="assets/menu-icon-24px.svg" id="menu-btn"/>
+<div class="container-fluid no-padding" id="main-menu">
+ <div class="row" id="main-menu-row-1">
+   <div class="col-sm-12">
+     <img src="assets/close-cream-24px.svg" id="close-btn"/>
+     <a href="anim.html" id="interactive-story">
+       interactive story
+     </a>
+   </div>
+ </div>
+ <div class="row" id="main-menu-row-2">
+   <div class="col-sm-12">
+
+   </div>
+ </div>
+</div>
+
+<!--SWIPE PAGES!**********************************************************************************************-->
+  <div class="container-fluid no-padding" id="swipe-container">
+    <div class="container-fluid no-padding" id="cover">
+      <div class="row" id="cover-row">
+        <div class="col-sm-12">
+            <img src="assets/FrenchFriesLogo.svg" id="logo" class="mx-auto d-block">
+            <img src="assets/blueText.svg" id="bluetxt-cvr">
+            <img src="assets/cover-sticker-01.png" id="cover-sticker"/>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="container-fluid no padding" id="middle">
+      <div class="row" id="middle1row">
+        <div class="col-sm" id="mid1-1">
+          <p id="thanks">
+            French Fries would like to thank the people of Russia for taking us into their hearts and
+            making the live shows unforgettable. We couldn’t do it without you, we hope you dig the
+            album! Big thanks to Dom Casual for your wisdom behind the desk and Harry
+            Kern for the artwork and photography. We would like to say a massive thank you to
+            The Nasties, Hot Cross Buns, Funk Comrades and the Baltic Funk family who made the
+            tour so special, we love you all, your albums are next! A big thanks to all the Russian
+            radio stations who supported and continue to support us.
+          </p>
+
+
+
+          <img id="logos" class="img-responsive" src="assets/logos-01.png"/>
+
+          <img id="we-funk-txt1" src="assets/type1.svg" />
+          <img id="we-funk-txt2" src="assets/type2.svg" />
+          <img id="we-funk-txt3" src="assets/type3.svg" />
+          <img id="we-funk-txt4" src="assets/type3.svg" />
+          <img id="mid-1-pic" class="img-responsive" src="assets/mid-1-photo-01.png"/>
+        </div>
+
+
+      </div>
+    </div>
+
+    <div class="container-fluid no padding" id="middle2">
+      <div class="row" id="middle2row">
+        <div class="col-sm-12" id="mid2-1">
+          <img class="img-fluid" src="assets/yaroslav-blk-grdnt.png" id="yaroslav-grdnt" />
+          <img class="img-fluid" src="assets/alexei-blk-grdnt.png" id="alexei-grdnt" />
+          <img class="img-fluid" src="assets/marat-blk-grdt-01.png" id="marat-grdnt" />
+          <img class="img-fluid" src="assets/background-texture-middle-01.svg" id="texture2" />
+          <img class="img-fluid" src="assets/blue-gradient.svg" id="blue-grdnt" />
+          <img class="img-fluid" src="assets/red-gradient.svg" id="red-grdnt" />
+          <img class="img-fluid" src="assets/yellow-gradient.svg" id="yellow-grdnt" />
+
+          <p id="writing-credits">
+            All tracks written by Federov, Ivanov, Vasiliev, except Scuba (Ivanov) and Stutter (Ivanov).
+            Engineers: Dom Casual and Marat Ivanov.
+            All compositions copyright 1978 Baltic Funk Music.
+            All rights reserved. Produced by French Fries for Baltic Funk Music.
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container-fluid no padding" id="back">
+      <div class="row" id="row-back">
+        <div class="col">
+          <img src="assets/backBandShot.png" id="band-back">
+          <img src="assets/blueText.svg" id="bluetxt">
+          <img src="assets/pinkText-01.svg" id="pinktext">
+        </div>
+        <div class="col" id="tracks-col-1">
+
+            <p class="thick">This Time</p>
+            <p class="thick">Gettin' Bad</p>
+            <p class="thick">Creepin'</p>
+            <p class="thick">Queen Of Soul</p>
+            <p class="thick">Stutter</p>
+            <p class="thick">Scuba</p>
+            <p class="thick">Feel Real</p>
+            <img id="logos-back" class="img-responsive" src="assets/logos-01.png"/>
+
+        </div>
+        <div class="col">
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+<!--AUDIO PLAYER!**********************************************************************************************-->
+      <div class="container-fluid no-padding" id="audioplyr-cont">
+        <div class="row">
+          <div class="col">
+              <img src="assets/audioplayer-btn-72.png" id="audio-btn">
+              <div id="controls-container">
+                <div id="title">
+                  <span id="track"></span>
+                  <div id="timer">0:00</div>
+                  <div id="duration">0:00</div>
+                </div>
+                <div class="controlsOuter">
+                  <div class="controlsInner">
+                    <div id="loading"></div>
+                    <img src="assets/play.svg" class="btn" id="playBtn"/>
+                    <img src="assets/pause.svg" class="btn" id="pauseBtn"/>
+                    <img src="assets/back.svg" class="btn" id="prevBtn">
+                    <img src="assets/forward.svg" class="btn" id="nextBtn">
+                  </div>
+                </div>
+                  <div id="progress"></div>
+                  <div id="playlist">
+                    <div id="list"></div>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+
+    <script src="howler.core.min.js"></script>
+    <script src="player.js"></script>
+    <script src="TimelineMax.min.js"></script>
+    <script src="TweenMax.min.js"></script>
+    <script src="swipey.js"></script>
+    <script src="main.js"></script>
+
+  </body>
+  </html>
