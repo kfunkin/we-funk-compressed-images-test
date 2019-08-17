@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <widget xmlns   = "http://www.w3.org/ns/widgets"
     xmlns:gap   = "http://phonegap.com/ns/1.0"
-    id          = "com.app-album.wefunk"
+    id          = "com.app-album.we-funk"
     versionCode = "10"
-    version     = "1.0.1" >
+    version     = "1.0.2" >
 
 
-  <name>We Funk compression</name>
+  <name>We Funk App-Album</name>
 
   <description>
       App-album by French Fries
