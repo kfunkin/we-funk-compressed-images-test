@@ -53,7 +53,7 @@ mark {
 }
 
 .dialogue-styling-light {
-  font-family: molot;
+  font-family: helvetica, sans-serif;
   line-height: 1em;
   letter-spacing: 0.5em;
   color: #f9f4cd;
