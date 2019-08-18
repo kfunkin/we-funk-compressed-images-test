@@ -375,7 +375,8 @@ backToSectionTwo.addEventListener('click', function() {
 sceneThreeTL.to("#yaroslav-head-down", 2, {autoAlpha: 1, rotation: "-=40", ease: Power1.easeOut, y: -5})
             .from("#funk-comrades-lp", 1, {autoAlpha: 0, rotation: "+=10", ease: Power1.easeOut, delay: -2})
             .to("#yaroslav-d3", 0.5, {autoAlpha: 1, ease: Bounce.easeOut, y: -5})
-            .from("#yaroslav-d3", 0.5, {autoAlpha: 0, ease: Bounce.easeOut, y: 5, delay: 1})
+            //.from("#yaroslav-d3", 0.5, {autoAlpha: 0, ease: Bounce.easeOut, y: 5, delay: 1})
+            .to("#yaroslav-d3", 0.5, {autoAlpha: 0, ease: Bounce.easeOut, y: 5, delay: 1})
             .to("#yaroslav-d3-2", 0.5, {autoAlpha: 1, ease: Bounce.easeOut, y: -5})
             .to("#section3BtnBck", 1, {autoAlpha: 1, ease: Bounce.easeOut, y: -20})
             .to("#section3BtnFwd", 1, {autoAlpha: 1, ease: Bounce.easeOut, y: 20, delay: -1});
