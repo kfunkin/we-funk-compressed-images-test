@@ -155,8 +155,8 @@ mark {
 #sectionOne {
   position: relative;
   background-color: #f2f1ef;
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
   overflow: hidden;
 }
 
@@ -228,8 +228,8 @@ mark {
 #sectionTwo {
   position: relative;
   background-color: #f2f1ef;
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
   overflow: hidden;
 }
 
@@ -308,6 +308,7 @@ mark {
   top: -35px;
   left: 420px;
   transform: scale(0.5);
+  z-index: 2;
 }
 
 #blue-circle {
@@ -358,8 +359,8 @@ visibility: hidden;
 #sectionThree {
   position: relative;
   background-color: #f2f1ef;
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
   overflow: hidden;
 }
 
@@ -443,8 +444,8 @@ visibility: hidden;
 #sectionFour {
   position: relative;
   background-color: #f2f1ef;
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
   overflow: hidden;
 }
 
@@ -521,6 +522,7 @@ visibility: hidden;
   top: -35px;
   left: 420px;
   transform: scale(0.5);
+  z-index: 2;
 }
 
 #blue-circle-4 {
@@ -633,8 +635,8 @@ visibility: hidden;
 #sectionFive {
   position: relative;
   background-color: #f2f1ef;
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
   overflow: hidden;
 }
 
@@ -721,8 +723,8 @@ visibility: hidden;
 #sectionSix {
   position: relative;
   background-color: #f2f1ef;
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
   overflow: hidden;
 }
 
@@ -798,6 +800,7 @@ visibility: hidden;
   top: -35px;
   left: 420px;
   transform: scale(0.5);
+  z-index: 2;
 }
 
 #blue-circle-6 {
@@ -896,8 +899,8 @@ visibility: hidden;
 #sectionSeven {
   position: relative;
   background-color: #f2f1ef;
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
   overflow: hidden;
 }
 
@@ -976,8 +979,8 @@ visibility: hidden;
 #sectionEight {
   position: relative;
   background-color: #f2f1ef;
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
   overflow: hidden;
 }
 
@@ -1062,8 +1065,8 @@ visibility: hidden;
 #sectionNine {
   position: relative;
   background-color: #f2f1ef;
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
   overflow: hidden;
   padding: 0px;
 }
@@ -1141,6 +1144,7 @@ visibility: hidden;
   left: 420px;
   transform: scale(0.5);
   z-index: 1;
+  mix-blend-mode: darken;
 }
 
 #reel-1-9 {
@@ -1148,7 +1152,7 @@ visibility: hidden;
   top: 109px;
   left: 471px;
   transform: scale(0.5);
-  z-index: 6;
+  z-index: 3;
 }
 
 #reel-2-9 {
@@ -1156,7 +1160,7 @@ visibility: hidden;
   top: 110px;
   left: 494px;
   transform: scale(0.5);
-  z-index: 6;
+  z-index: 3;
 }
 
 #blue-circle-9 {
@@ -1340,8 +1344,8 @@ visibility: hidden;
 #sectionTen {
   position: relative;
   background-color: #f2f1ef;
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
   overflow: hidden;
 }
 
@@ -1422,8 +1426,8 @@ visibility: hidden;
 #sectionEleven {
   position: relative;
   background-color: #f2f1ef;
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
   overflow: hidden;
 }
 
@@ -1561,8 +1565,8 @@ visibility: hidden;
 #sectionTwelve {
   position: relative;
   background-color: #f2f1ef;
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
   overflow: hidden;
 }
 
@@ -1700,8 +1704,8 @@ mix-blend-mode: darken;
 #sectionThirteen {
   position: relative;
   background-color: #f2f1ef;
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
   overflow: hidden;
 }
 
@@ -1776,8 +1780,8 @@ visibility: hidden;
 #sectionFourteen {
   position: relative;
   background-color: #754c29;
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
   overflow: hidden;
 }
 
